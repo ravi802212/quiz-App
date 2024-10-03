@@ -1,0 +1,310 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "user1@example.com",
+      "password": "password1",
+      "name": "User One"
+    },
+    {
+      "id": "2",
+      "email": "user2@example.com",
+      "password": "password2",
+      "name": "User Two"
+    },
+    {
+      "id": "0738",
+      "email": "ravi@gmail.com",
+      "password": "1234567",
+      "name": "Ravi"
+    },
+    {
+      "id": "659e",
+      "email": "user3@example.com",
+      "password": "password1",
+      "name": "User Three"
+    },
+    {
+      "id": "72e1",
+      "email": "amardeep@gmail.com",
+      "password": "1234567",
+      "name": "Amardeep"
+    },
+    {
+      "id": "96fa",
+      "email": "binay@gmail.com",
+      "password": "1234567",
+      "name": "Binay"
+    }
+  ],
+  "admins": [
+    {
+      "id": "1",
+      "email": "admin@tech.com",
+      "password": "password",
+      "name": "Ravi"
+    }
+  ],
+  "scores": [
+    {
+      "id": "7012",
+      "userName": "Ravi Bharti",
+      "score": 2,
+      "quizTitle": "CSS Quiz"
+    },
+    {
+      "id": "d390",
+      "userName": "Ravi Bharti",
+      "score": 1,
+      "quizTitle": "CSS Quiz"
+    },
+    {
+      "id": "cf5b",
+      "userName": "Ravi Bharti",
+      "score": 1,
+      "quizTitle": "Node.js Quiz"
+    },
+    {
+      "id": "281d",
+      "userName": "Ravi Bharti",
+      "score": 3,
+      "quizTitle": "Node.js Quiz"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "3",
+      "title": "JavaScript Quiz",
+      "questions": [
+        {
+          "question": "Which of the following is a JavaScript data type?",
+          "options": [
+            "Undefined",
+            "Null",
+            "Boolean",
+            "All of the above"
+          ],
+          "answer": "All of the above"
+        },
+        {
+          "question": "What does the 'this' keyword refer to in JavaScript?",
+          "options": [
+            "The current object",
+            "The previous object",
+            "The global object",
+            "None of the above"
+          ],
+          "answer": "The current object"
+        },
+        {
+          "question": "Which function is used to parse a string to an integer in JavaScript?",
+          "options": [
+            "parseInt()",
+            "parseFloat()",
+            "toInteger()",
+            "toFloat()"
+          ],
+          "answer": "parseInt()"
+        },
+        {
+          "question": "What is the output of console.log(typeof NaN)?",
+          "options": [
+            "'number'",
+            "'string'",
+            "'undefined'",
+            "'object'"
+          ],
+          "answer": "'number'"
+        },
+        {
+          "question": "Which symbol is used for comments in JavaScript?",
+          "options": [
+            "//",
+            "#",
+            "/* */",
+            "Both A and C"
+          ],
+          "answer": "Both A and C"
+        },
+        {
+          "question": "What will 'console.log(0.1 + 0.2 === 0.3)' output?",
+          "options": [
+            "true",
+            "false",
+            "NaN",
+            "undefined"
+          ],
+          "answer": "false"
+        },
+        {
+          "question": "Which method is used to convert a JSON string into a JavaScript object?",
+          "options": [
+            "JSON.parse()",
+            "JSON.stringify()",
+            "JSON.convert()",
+            "JSON.object()"
+          ],
+          "answer": "JSON.parse()"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Node.js Quiz",
+      "questions": [
+        {
+          "question": "Which of the following is a Node.js framework?",
+          "options": [
+            "Express",
+            "Angular",
+            "Vue",
+            "Django"
+          ],
+          "answer": "Express"
+        },
+        {
+          "question": "What is the purpose of the 'require()' function in Node.js?",
+          "options": [
+            "To include modules",
+            "To create a new file",
+            "To connect to a database",
+            "None of the above"
+          ],
+          "answer": "To include modules"
+        },
+        {
+          "question": "Which command is used to install a package in Node.js?",
+          "options": [
+            "npm install",
+            "node install",
+            "install npm",
+            "npm add"
+          ],
+          "answer": "npm install"
+        },
+        {
+          "question": "What is the event-driven architecture in Node.js?",
+          "options": [
+            "Callback functions",
+            "Promises",
+            "Async/Await",
+            "All of the above"
+          ],
+          "answer": "All of the above"
+        },
+        {
+          "question": "Which built-in module is used to work with file systems in Node.js?",
+          "options": [
+            "fs",
+            "http",
+            "url",
+            "path"
+          ],
+          "answer": "fs"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "HTML Quiz",
+      "questions": [
+        {
+          "question": "What does HTML stand for?",
+          "options": [
+            "Hyper Text Markup Language",
+            "High Text Markup Language",
+            "Hyperlink and Text Markup Language",
+            "None of the above"
+          ],
+          "answer": "Hyper Text Markup Language"
+        },
+        {
+          "question": "Which tag is used to create a hyperlink in HTML?",
+          "options": [
+            "<link>",
+            "<a>",
+            "<href>",
+            "<url>"
+          ],
+          "answer": "<a>"
+        },
+        {
+          "question": "What is the purpose of the <head> tag in HTML?",
+          "options": [
+            "To contain meta-information",
+            "To display the main content",
+            "To define the footer",
+            "To link external CSS"
+          ],
+          "answer": "To contain meta-information"
+        },
+        {
+          "question": "Which of the following is a semantic HTML element?",
+          "options": [
+            "<div>",
+            "<span>",
+            "<article>",
+            "<header>"
+          ],
+          "answer": "<article>"
+        },
+        {
+          "question": "What does the <br> tag do in HTML?",
+          "options": [
+            "Creates a line break",
+            "Defines a paragraph",
+            "Links to another page",
+            "None of the above"
+          ],
+          "answer": "Creates a line break"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "CSS Quiz",
+      "questions": [
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Colorful Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which property is used to change the background color in CSS?",
+          "options": [
+            "background-color",
+            "color",
+            "bgcolor",
+            "background"
+          ],
+          "answer": "background-color"
+        },
+        {
+          "question": "Which HTML tag is used to define an internal style sheet?",
+          "options": [
+            "<style>",
+            "<css>",
+            "<script>",
+            "<link>"
+          ],
+          "answer": "<style>"
+        },
+        {
+          "question": "What is the correct syntax for adding a comment in CSS?",
+          "options": [
+            "// this is a comment",
+            "<!-- this is a comment -->",
+            "/* this is a comment */",
+            "' this is a comment"
+          ],
+          "answer": "/* this is a comment */"
+        }
+      ]
+    }
+  ]
+}
